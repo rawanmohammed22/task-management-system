@@ -1,6 +1,17 @@
 # Task Management System (Clean Architecture)
 
 A full-stack project and task management system built using ASP.NET Core MVC, heavily focused on architectural purity through **Clean Architecture** principles.
+- **Incomplete Features:** Some notification edge cases and advanced task filtering are not fully implemented.
+
+- ## How to Run
+- 1. Open the solution `.sln` file in Visual Studio.
+  2. 2. Update the connection string in `appsettings.json`.
+     3. 3. In the Package Manager Console, run:
+        4.    ```powershell
+                 Update-Database
+                 ```
+              4. Run the project (F5).
+              5. 
 
 ## Features
 - **Project & Task Management:** Create, assign, and track projects and their sub-tasks.
